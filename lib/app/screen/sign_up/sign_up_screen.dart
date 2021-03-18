@@ -1,9 +1,10 @@
+import 'package:flutter/material.dart';
+
 import 'package:advanced_error_handling/app/screen/home/home_screen.dart';
 import 'package:advanced_error_handling/user/application/bloc/sign_up/sign_up_bloc.dart';
 import 'package:advanced_error_handling/user/application/bloc/sign_up/sign_up_bloc_state.dart';
 import 'package:advanced_error_handling/user/domain/model/user_request.dart';
 import 'package:advanced_error_handling/user/domain/service/user_request_client_validation_service.dart';
-import 'package:flutter/material.dart';
 
 class SignUpScreen extends StatefulWidget {
   static const routeName = '/sign-up';

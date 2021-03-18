@@ -1,0 +1,6 @@
+pre-commit:
+  parallel: false
+  commands:
+    check-order-imports:
+      tags: lint
+      run: flutter pub run import_sorter:main --exit-if-changed
